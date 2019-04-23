@@ -3,4 +3,4 @@
 Repository with all challenges from Rocketseat's bootcamp.
 
 * GoNode
-  * [First Module](gonode/challenge1)
+  * [First Challenge](GoNode/Challenge1)
