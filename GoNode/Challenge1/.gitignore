@@ -1,6 +1,0 @@
-node_modules
-.vscode
-.editorconfig
-.eslintrc.json
-package.json
-yarn.lock
