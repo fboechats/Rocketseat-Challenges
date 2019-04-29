@@ -25,6 +25,17 @@ class PurchaseController {
 
     return res.json(purchase)
   }
+
+  async update (req, res) {
+    const { content } = req.body
+
+    const Purchase = await Ad.findByIdAndUpdate(req.params.id, {
+      content,
+      purchasedBy: req.params.id
+    })
+
+    return res.json(Purchase)
+  }
 }
 
 module.exports = new PurchaseController()

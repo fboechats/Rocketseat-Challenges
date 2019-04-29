@@ -12,16 +12,6 @@ class UserController {
 
     return res.json(user)
   }
-
-  async destroy (req, res) {
-    await User.findByIdAndDelete(req.params.id)
-
-    return res.send()
-  }
-
-  async index (req, res) {
-    return res.json(User)
-  }
 }
 
 module.exports = new UserController()

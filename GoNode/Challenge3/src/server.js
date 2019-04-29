@@ -13,9 +13,9 @@ class App {
     this.express = express()
     this.isDev = process.env.NODE_ENV !== 'production'
 
+    this.sentry()
     this.database()
     this.middlewares()
-    this.sentry()
     this.routes()
     this.exception()
   }
@@ -25,10 +25,13 @@ class App {
   }
 
   database () {
-    mongoose.connect(databaseConfig.uri, {
-      useCreateIndex: true,
-      useNewUrlParser: true
-    })
+    mongoose.connect(
+      databaseConfig.uri,
+      {
+        useCreateIndex: true,
+        useNewUrlParser: true
+      }
+    )
   }
 
   middlewares () {

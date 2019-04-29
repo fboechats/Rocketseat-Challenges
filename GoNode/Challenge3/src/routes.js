@@ -14,7 +14,6 @@ routes.post(
   validate(validators.User),
   handle(controllers.UserController.store)
 )
-
 routes.post(
   '/sessions',
   validate(validators.Session),
@@ -26,7 +25,6 @@ routes.use(authMiddleware)
 /**
  * Ads
  */
-
 routes.get('/ads', handle(controllers.AdController.index))
 routes.get('/ads/:id', handle(controllers.AdController.show))
 routes.post(
@@ -42,14 +40,14 @@ routes.put(
 routes.delete('/ads/:id', handle(controllers.AdController.destroy))
 
 /**
- * Purchase
+ * Purchases
  */
-
 routes.post(
-  '/purchase',
+  '/purchases',
   validate(validators.Purchase),
   handle(controllers.PurchaseController.store)
 )
-routes.put('/purchase/:id', handle(controllers.PurchaseController.update))
+
+routes.put('/purchases/:id', handle(controllers.PurchaseController.update))
 
 module.exports = routes
