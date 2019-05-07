@@ -11,4 +11,5 @@ Repository with all challenges from Rocketseat's bootcamp.
   
 * GoReact
   * [First Challenge](GoReact/Challenge1): Facebook Static Template
+  * [Second Challenge](GoReact/challenge2): Git Compare => Search repositories in GitHub API and display then with some infos
 
