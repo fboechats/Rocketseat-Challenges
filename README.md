@@ -17,4 +17,4 @@ Repository with all challenges from Rocketseat's bootcamp.
   * [Third Challenge](GoReact/challenge3): GitHub Mapbox => Add users from GitHub API in a list and a marker in the map that is built utilizing MapBox.
 
 * GoNative
-  * [First Challenge](GoNative/(challenge1): Static posts Template
+  * [First Challenge](GoNative/challenge1): Static posts Template
