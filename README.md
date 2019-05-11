@@ -12,9 +12,11 @@ Repository with all challenges from Rocketseat's bootcamp.
 * GoReact
   * [First Challenge](GoReact/Challenge1): Static posts Template
   
-  * [Second Challenge](GoReact/challenge2): Git Compare => Search repositories in GitHub API and display then with some infos
+  * [Second Challenge](GoReact/challenge2): Git Compare => Search repositories from GitHub API and display then with some infos
   
   * [Third Challenge](GoReact/challenge3): GitHub Mapbox => Add users from GitHub API in a list and a marker in the map that is built utilizing MapBox.
 
 * GoNative
   * [First Challenge](GoNative/challenge1): Static posts Template
+  
+  * [Second Challenge](GoNative/challenge2): GitIssues => Search for organizations repositories from GitHub API, show them in a list format, second page is a list of issues from the repository that you clicked.
