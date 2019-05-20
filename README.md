@@ -20,3 +20,5 @@ Repository with all challenges from Rocketseat's bootcamp.
   * [First Challenge](GoNative/challenge1): Static posts Template
   
   * [Second Challenge](GoNative/challenge2): GitIssues => Search for organizations repositories from GitHub API, show them in a list format, second page is a list of issues from the repository that you clicked.
+  
+  * [Third Challenge](GoNative/challenge3): GitHub Maps => Add users from GitHub API in a list and a marker in the map that is built utilizing Google Maps.
