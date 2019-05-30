@@ -7,7 +7,9 @@ Repository with all challenges from Rocketseat's bootcamp.
   
   * [Second Challenge](GoNode/Challenge2): GoBarber App => App to make a hair/beard appointment and if you login as a professional, you can also check your schedule. 
   
-  * [Third Challenge](GoNode/Challenge3): AppMarketPlace => App to simulate a market place database, with account, ad and purchases.
+  * [Third Challenge](GoNode/Challenge3): ApiMarketPlace => Api to simulate a market place database, with account, ad and purchases.
+  
+  * [Fourth Challenge](GoNode/challenge4): ApiEvents => Api built in adonis, that simulates an event scheduler, you can create accounts, events and share those events sending a email.
   
 * GoReact
   * [First Challenge](GoReact/Challenge1): Static posts Template
